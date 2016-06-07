@@ -5,7 +5,7 @@ body {
 }
 
 .main {
-	height: 300vh;
+	height: 400vh;
 	width: 100%;
 
 	.book {
@@ -25,13 +25,17 @@ body {
 		}
 
 		.catchy-phrases {
-			margin: 100px;
-			//padding-left: 400px;
-			padding-right: 400px;
+      //height: 60vh;
+			display: flex;
+      justify-content: center;
+      align-items: center;
+      //padding: 200px;
 
 			p {
+        margin: 150px;
 				font-size: 25px;
 				color: #0066FF;
+        text-align: justify; 
 			}
 		}
 		.work-plans {
@@ -60,25 +64,30 @@ body {
         
         display: flex;
         flex-direction: column;
+        background-color: rgba(0,102,255,0.3);
             }
       .boite2{
        
         display: flex;
         flex-direction: column;
+        background-color: rgba(0,102,255,0.2);
       }
       .boite3 {
         
         display: flex;
         flex-direction: column;
+        background-color: rgba(0,102,255,0.3);
       }
       .boite4 {
        
         display: flex;
         flex-direction: column;
+        background-color: rgba(0,102,255,0.2);
       }
       .boite5 {
        display: flex;
-        flex-direction: column;      	
+        flex-direction: column;  
+        background-color: rgba(0,102,255,0.3);    	
       }      
 		}
 .container-blocks-mise-avant {
@@ -198,6 +207,25 @@ body {
           border-radius: 40px;
           letter-spacing: 2px;
           line-height: 44px; }
+    .book2{
+      background:  url('../images/book2.jpg');
+      height: 50vh;
+      width: 100%;
+      margin-bottom: 10vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .book2_image {
+        // background-color: rgba(0,102,255,0.2);
+        // height: 100%;
+        // width: 100%;
+        p {
+          padding: 100px;
+          font-size: 50px;
+          //color: rgb(77,79,83);
+        }
+      }
+    }
 .wrapper{
     width:100%;
     text-align:center;
