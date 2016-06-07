@@ -5,11 +5,11 @@ body {
 }
 
 .main {
-	height: 280vh;
+	height: 300vh;
 	width: 100%;
 
 	.book {
-		  height: 400px;
+		  height: 500px;
 	      background-size: cover;
 	      background-image: url("../images/book3.jpg");
 	      background-position: 50% 50%;
@@ -35,7 +35,8 @@ body {
 			}
 		}
 		.work-plans {
-			//background-color: rgba(0, 0, 0, 0.4);
+			background-image: url('../images/book.jpg');
+      //background-size: cover;
 			width: 100%;
 			height: 500px;
       display: flex;
@@ -49,32 +50,34 @@ body {
         justify-content: center;
         align-items: center;
         text-align: center;
+        
         font-size: 25px;
         font-weight: bold;
-        color: #fff;      	
+        color: #fff;
+        //background-color: rgba(0,102,255,0.2);   	
       }
 			.boite1{
-        background-color: rgba(0,102,255,0.7) ;
+        
         display: flex;
-        flex-direction: column;      }
+        flex-direction: column;
+            }
       .boite2{
-        background-color: rgba(0,102,255,0.8);
+       
         display: flex;
         flex-direction: column;
       }
       .boite3 {
-        background-color: rgba(0,102,255,0.7) ;
+        
         display: flex;
         flex-direction: column;
       }
       .boite4 {
-        background-color: rgba(0,102,255,0.8);
+       
         display: flex;
         flex-direction: column;
       }
       .boite5 {
-        background-color: rgba(0,102,255,0.7) ;
-        display: flex;
+       display: flex;
         flex-direction: column;      	
       }      
 		}
@@ -153,7 +156,7 @@ body {
   bottom: 90px;
   left: 20px;
   text-align: center;
-  background-color: rgba(0,102,255,0.8);
+  background-color: rgba(255,153,102,0.8);
   padding: 0 30px;
   border-radius: 40px;
   height: 40px;
@@ -164,6 +167,132 @@ body {
   border: none;
   color: #fff;
 
+}
+        .la-partie-boutique .la-boutique h1 {
+          text-align: center;
+          font-weight: bold;
+          font-size: 40px;
+          color: #000000;
+          letter-spacing: 4px;
+          margin: 0 auto;
+          padding: 20px 0; }
+        .la-partie-boutique .la-boutique p {
+          font-size: 30px;
+          text-align: center;
+          padding: 0 4% 20px 4%; }
+      .la-partie-boutique .button-shop {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 16px;
+        text-transform: uppercase;
+        line-height: 44px;
+        margin-top: 30px
+        /*  //display: inline-block */ }
+        .la-partie-boutique .button-shop a {
+          border: 2px solid #0088CE;
+          text-decoration: none;
+          color: #0088CE;
+          padding: 0 40px;
+          border-radius: 40px;
+          letter-spacing: 2px;
+          line-height: 44px; }
+.wrapper{
+    width:100%;
+    text-align:center;
+
+}
+.content{
+    position:absolute;
+    top:0px;
+    height:500px;
+    width:4000px;
+    -webkit-transition:all 2s ease;
+    -moz-transition:all 2s ease;
+    -o-transition:all 2s ease;
+    transition:all 2s ease;
+    clear:both;
+}
+.item {
+    float:left;
+    width:1000px;
+    height:200px;
+    position:relative;
+}
+#article1, #article2, #article3, #article4{
+    overflow:hidden;
+    background:transparent;
+    width:1000px;
+    height:500px;
+    margin:0 auto;
+    position:relative;
+}
+.sliderContainer{
+    position:relative;
+    height:500px;
+    width:1000px;
+    overflow:hidden;
+}
+#article2:target .content, #article3:target .content, #article4:target .content{
+    -webkit-transform: translate(-1000px, 0px);
+    -moz-transform: translate(-1000px, 0px);
+    -o-transform: translate(-1000px, 0px);
+    -ms-transform: translate(-1000px, 0px);
+    transform: translate(-1000px, 0px);
+}
+#article3:target .content{
+    -webkit-transform: translate(-2000px, 0px);
+    -moz-transform: translate(-2000px, 0px);
+    -o-transform: translate(-2000px, 0px);
+    -ms-transform: translate(-2000px, 0px);
+    transform: translate(-2000px, 0px);
+}
+#article4:target .content{
+    -webkit-transform: translate(-3000px, 0px);
+    -moz-transform: translate(-3000px, 0px);
+    -o-transform: translate(-3000px, 0px);
+    -ms-transform: translate(-3000px, 0px);
+    transform: translate(-3000px, 0px);
+}
+#article4 a,#article3 a, #article2 a, #article1 a{
+    width:7px;
+    height:4px;
+    padding:3px 0;
+    padding-top:0px;
+    position:absolute;
+    bottom:10px;
+    left:455px;
+    color:#636773;
+    text-decoration: none;
+    text-indent:-5000px;
+    background:#636773;
+    border: 2px solid #636773;
+    -ms-transform: rotate(45deg); /* Internet Explorer */
+    -moz-transform: rotate(45deg); /* Firefox */
+    -webkit-transform: rotate(45deg); /* Safari et Chrome */
+    -o-transform: rotate(45deg); /* Opera */
+}
+#article2 a{
+    left:480px;
+}
+#article3 a{
+    left:505px;
+}
+#article4 a{
+    left:530px;
+}
+#article1:target> a, #article2:target> a, #article3:target> a, #article4:target> a{
+    background:#fff;
+    color:#fff;
+}
+#article1 a:hover,#article2 a:hover ,#article3 a:hover,#article4 a:hover{
+  background:#fff;
+  border: 2px solid #636773;
+}
+.item img{
+    width:300px;
+    height:500px;
 }
 
 }
