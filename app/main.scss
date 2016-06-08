@@ -29,10 +29,9 @@ body {
 			display: flex;
       justify-content: center;
       align-items: center;
-      //padding: 200px;
 
 			p {
-        margin: 150px;
+        width: 50vw;
 				font-size: 25px;
 				color: #0066FF;
         text-align: justify; 
@@ -325,4 +324,8 @@ body {
     height:500px;
 }
 
+}
+
+#myCanvasHaut, #myCanvasBas {
+  margin-left: 706px;
 }
