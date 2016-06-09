@@ -1,0 +1,43 @@
+.contactAl .nomAl {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.contactAl .containerAl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+}
+
+.contactAl .containerAl .nameAl {
+  padding-bottom: 15px;
+}
+
+.contactAl .containerAl .nameAl input {
+  color:#0066FF;
+}
+
+.contactAl .containerAl .emailAl {
+  padding-bottom: 15px;
+}
+
+.contactAl .containerAl .emailAl input {
+  width: 300px;
+  color: #0066FF;
+}
+
+.contactAl .containerAl textarea {
+  box-shadow: 4px 5px 4px #FF0066;
+  margin-bottom: 50px;
+  height: 400px;
+  width: 400px;
+  color: #0066FF;
+}
+
+.contactAl .containerAl .sendAl {
+  padding-bottom: 105px;
+}

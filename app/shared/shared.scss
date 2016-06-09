@@ -2,3 +2,48 @@
  *    Everything that is shared across pages (like header, footer, etc
  */
 
+ header {
+   width: 100%;
+   background-color: #99FF99;
+ }
+
+ header .logoAl {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+ }
+
+ header .logoAl h1 a {
+   font-size: 40px;
+   text-decoration: none;
+   color: #FF0066;
+ }
+
+ // FIN HEADER
+
+// DEBUT FOOTER
+
+footer {
+
+}
+
+footer .FooterAl {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0 20px 0;
+  font-size: 15px;
+  background-color: #99FF99;
+  width: 100%;
+}
+
+footer .FooterAl p {
+  padding-right: 20px;
+}
+
+footer .FooterAl p a {
+  text-decoration: none;
+  color:#FF0066;
+}
