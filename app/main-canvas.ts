@@ -2,8 +2,8 @@ var canvas = document.getElementById('myCanvasGauche');
 var context = canvas.getContext('2d');
 
 	context.beginPath();
-	context.moveTo(100, 100);
-	context.lineTo(300, 100);
+	context.moveTo(100, 400);
+	context.lineTo(350, 10);
 	context.lineWidth = 3;
 	context.stroke();
 	// set line color
@@ -15,8 +15,8 @@ var canvas = document.getElementById('myCanvasDroite');
 var context = canvas.getContext('2d');
 
 		context.beginPath();
-		context.moveTo(100, 100);
-		context.lineTo(300, 100);
+		context.moveTo(100, 400);
+		context.lineTo(350, 10);
 		context.lineWidth = 3;
 		context.stroke();
 		// set line color
