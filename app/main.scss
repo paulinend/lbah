@@ -1,4 +1,331 @@
-/*
- *    Index's css
- */
 
+body {
+	margin: 0px;
+	background-image: url('../images/crossword.png');
+}
+
+.main {
+	height: 400vh;
+	width: 100%;
+
+	.book {
+		  height: 500px;
+	      background-size: cover;
+	      background-image: url("../images/book3.jpg");
+	      background-position: 50% 50%;
+	      display: flex;
+	      justify-content: center;
+	      align-items: center;
+	      flex-direction: column;
+
+	      p {
+	      	font-size: 50px;
+	      	color: rgb(77,79,83);
+	      }
+		}
+
+		.catchy-phrases {
+      height: 60vh;
+			display: flex;
+      justify-content: center;
+      align-items: center;
+
+			p {
+        width: 50vw;
+				font-size: 25px;
+				color: #0066FF;
+        text-align: justify; 
+			}
+		}
+		.work-plans {
+			//background-image: url('../images/book.jpg');
+      //background-size: cover;
+			width: 100%;
+			height: 500px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center; 
+
+      .concept-bh {
+				width: 500%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+        font-size: 25px;
+        font-weight: bold;
+        color: #fff;
+        //background-color: rgba(0,102,255,0.7);   	
+      }
+			.boite1{
+        
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(0,102,255,0.6);
+            }
+      .boite2{
+       
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(0,102,255,0.7);
+      }
+      .boite3 {
+        
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(0,102,255,0.6);
+      }
+      .boite4 {
+       
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(0,102,255,0.7);
+      }
+      .boite5 {
+       display: flex;
+        flex-direction: column;  
+        background-color: rgba(0,102,255,0.6);    	
+      }      
+		}
+.container-blocks-mise-avant {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 200px 0;
+  text-align: center;
+}
+
+.block-mise-avant {
+  width: 340px;
+  height: 340px;
+  display: inline-block;
+  margin: 40px 2.5%;
+  position: relative;
+}
+
+.block-mise-avant img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  left: 0;
+  transition: opacity .3s
+}
+
+.text-appear {
+  background-color: rgba(255,0,102,0.6) ;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translate(0,-50%);
+  height: 140px;
+  vertical-align: middle;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: uppercase;
+  letter-spacing: 4px;
+  display: table;
+  transition: height .3s, background .3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-appear span {
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
+  transition: all .3s;
+  font-size: 30px;
+}
+.block-mise-avant a {
+  text-decoration: none;
+  color: black;
+}
+
+.text-appear:hover{
+  height: 340px;
+  width: 330px;
+  background-color: rgba(255,255,255,0.1);
+  border: 6px solid rgba(255,0,102,0.6);
+}
+
+.btn {
+  display: none;
+  opacity: 0;
+  white-space: nowrap;
+}
+
+.text-appear:hover .btn {
+  display: block;
+  opacity: 1;
+  position: absolute;
+  bottom: 90px;
+  left: 20px;
+  text-align: center;
+  background-color: rgba(255,153,102,0.8);
+  padding: 0 30px;
+  border-radius: 40px;
+  height: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 40px;
+  transition: all .2s;
+  border: none;
+  color: #fff;
+
+}
+        .la-partie-boutique .la-boutique h1 {
+          text-align: center;
+          font-weight: bold;
+          font-size: 40px;
+          color: #000000;
+          letter-spacing: 4px;
+          margin: 0 auto;
+          padding: 20px 0; }
+        .la-partie-boutique .la-boutique p {
+          font-size: 30px;
+          text-align: center;
+          padding: 0 4% 20px 4%; }
+      .la-partie-boutique .button-shop {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 16px;
+        text-transform: uppercase;
+        line-height: 44px;
+        margin-top: 30px
+        /*  //display: inline-block */ }
+        .la-partie-boutique .button-shop a {
+          border: 2px solid #0088CE;
+          text-decoration: none;
+          color: #0088CE;
+          padding: 0 40px;
+          border-radius: 40px;
+          letter-spacing: 2px;
+          line-height: 44px; }
+    .book2{
+      background:  url('../images/note.jpg');
+      background-size: cover;
+      background-position: 50% 23%;
+      height: 50vh;
+      width: 100%;
+      margin-bottom: 10vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .book2_image {
+        // background-color: rgba(0,102,255,0.2);
+        // height: 100%;
+        // width: 100%;
+        p {
+          padding: 100px;
+          font-size: 30px;
+          color: #99FF99;
+        }
+      }
+    }
+.wrapper{
+    width:100%;
+    text-align:center;
+
+}
+.content{
+    position:absolute;
+    top:0px;
+    height:500px;
+    width:4000px;
+    -webkit-transition:all 2s ease;
+    -moz-transition:all 2s ease;
+    -o-transition:all 2s ease;
+    transition:all 2s ease;
+    clear:both;
+}
+.item {
+    float:left;
+    width:1000px;
+    height:200px;
+    position:relative;
+}
+#article1, #article2, #article3, #article4{
+    overflow:hidden;
+    background:transparent;
+    width:1000px;
+    height:500px;
+    margin:0 auto;
+    position:relative;
+}
+.sliderContainer{
+    position:relative;
+    height:500px;
+    width:1000px;
+    overflow:hidden;
+}
+#article2:target .content, #article3:target .content, #article4:target .content{
+    -webkit-transform: translate(-1000px, 0px);
+    -moz-transform: translate(-1000px, 0px);
+    -o-transform: translate(-1000px, 0px);
+    -ms-transform: translate(-1000px, 0px);
+    transform: translate(-1000px, 0px);
+}
+#article3:target .content{
+    -webkit-transform: translate(-2000px, 0px);
+    -moz-transform: translate(-2000px, 0px);
+    -o-transform: translate(-2000px, 0px);
+    -ms-transform: translate(-2000px, 0px);
+    transform: translate(-2000px, 0px);
+}
+#article4:target .content{
+    -webkit-transform: translate(-3000px, 0px);
+    -moz-transform: translate(-3000px, 0px);
+    -o-transform: translate(-3000px, 0px);
+    -ms-transform: translate(-3000px, 0px);
+    transform: translate(-3000px, 0px);
+}
+#article4 a,#article3 a, #article2 a, #article1 a{
+    width:7px;
+    height:4px;
+    padding:3px 0;
+    padding-top:0px;
+    position:absolute;
+    bottom:10px;
+    left:455px;
+    color:#636773;
+    text-decoration: none;
+    text-indent:-5000px;
+    background:#636773;
+    border: 2px solid #636773;
+    -ms-transform: rotate(45deg); /* Internet Explorer */
+    -moz-transform: rotate(45deg); /* Firefox */
+    -webkit-transform: rotate(45deg); /* Safari et Chrome */
+    -o-transform: rotate(45deg); /* Opera */
+}
+#article2 a{
+    left:480px;
+}
+#article3 a{
+    left:505px;
+}
+#article4 a{
+    left:530px;
+}
+#article1:target> a, #article2:target> a, #article3:target> a, #article4:target> a{
+    background:#fff;
+    color:#fff;
+}
+#article1 a:hover,#article2 a:hover ,#article3 a:hover,#article4 a:hover{
+  background:#fff;
+  border: 2px solid #636773;
+}
+.item img{
+    width:300px;
+    height:500px;
+}
+
+}
+
+#myCanvasHaut, #myCanvasBas {
+  margin-left: 706px;
+}
