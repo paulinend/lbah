@@ -2,7 +2,7 @@ var canvas = document.getElementById('myCanvasGauche');
 var context = canvas.getContext('2d');
 
 	context.beginPath();
-	context.moveTo(100, 400);
+	context.moveTo(30, 400);
 	context.lineTo(350, 10);
 	context.lineWidth = 3;
 	context.stroke();
@@ -15,7 +15,7 @@ var canvas = document.getElementById('myCanvasDroite');
 var context = canvas.getContext('2d');
 
 		context.beginPath();
-		context.moveTo(100, 400);
+		context.moveTo(30, 400);
 		context.lineTo(350, 10);
 		context.lineWidth = 3;
 		context.stroke();
@@ -24,7 +24,7 @@ var context = canvas.getContext('2d');
 		context.stroke();
 
 
-var canvas = document.getElementById('myCanvasHaut');
+/*var canvas = document.getElementById('myCanvasHaut');
 var context = canvas.getContext('2d');
 
 		context.beginPath();
@@ -46,4 +46,4 @@ var context = canvas.getContext('2d');
 
 	     // set line color
 	    context.strokeStyle = '#99FF99';
-	    context.stroke();
+	    context.stroke();*/

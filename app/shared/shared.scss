@@ -2,6 +2,16 @@
  *    Everything that is shared across pages (like header, footer, etc
  */
 
+@font-face {
+  font-family: "comesinhandy";
+  src: url("/app/vendors/fonts/comesinhandy.ttf");
+}
+
+@font-face {
+  font-family: "metafors";
+  src: url("/app/vendors/fonts/metafors-regular.ttf");
+}
+
  header {
    width: 100%;
    background-color: #99FF99;

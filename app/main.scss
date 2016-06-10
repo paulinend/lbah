@@ -1,17 +1,19 @@
 
+
 body {
 	margin: 0px;
 	background-image: url('../images/crossword.png');
 }
 
 .main {
+  font-family: "metafors";
 	height: 400vh;
 	width: 100%;
 
 	.book {
 		  height: 500px;
 	      background-size: cover;
-	      background-image: url("../images/book3.jpg");
+	      background-image: url("../images/manolivre.jpg");
 	      background-position: 50% 50%;
 	      display: flex;
 	      justify-content: center;
@@ -19,6 +21,7 @@ body {
 	      flex-direction: column;
 
 	      p {
+          font-family: "comesinhandy";
 	      	font-size: 50px;
 	      	color: rgb(77,79,83);
 	      }
@@ -32,8 +35,9 @@ body {
 
 			p {
         width: 50vw;
+        padding-left: 40px;
 				font-size: 25px;
-				color: #0066FF;
+				color: #FF0066;
         text-align: justify; 
 			}
 		}
@@ -70,6 +74,8 @@ body {
         display: flex;
         flex-direction: column;
         background-color: rgba(0,102,255,0.7);
+        padding-left: 5px;
+        padding-right: 5px;
       }
       .boite3 {
         
@@ -222,8 +228,9 @@ body {
         // width: 100%;
         p {
           padding: 100px;
-          font-size: 30px;
+          font-size: 40px;
           color: #99FF99;
+          font-weight: bold;
         }
       }
     }
